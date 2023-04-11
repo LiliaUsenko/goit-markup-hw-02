@@ -18,7 +18,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(-color-white);
+  background-color: var(--color-white);
 }
 
 .link {
@@ -50,7 +50,7 @@ body {
 .header-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
@@ -91,17 +91,18 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-white);
 }
 
 .order-service {
+  font-family: "Roboto", sans-serif;
   background-color: var(--color-iris);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--color-white);
@@ -114,6 +115,16 @@ body {
 }
 
 /*Second section*/
+
+.name-section-tools {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-navy-blue-modal);
+}
 
 .tools-title-items {
   font-weight: 500;
@@ -136,7 +147,9 @@ body {
 .team {
   background: var(--color-cloud);
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 .name-team-member {
   font-weight: 500;
   font-size: 20px;
@@ -148,7 +161,7 @@ body {
 
 .profession-team-memeber {
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -177,4 +190,33 @@ body {
 }
 .second-color-footer-logo {
   color: var(--color-cloud);
+}
+
+/*Portfolio page*/
+
+.portfolio-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(-color-iris);
+  background: var(--color-cloud);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+. .portfolio-title-items {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(-color-navy-blue);
 }
