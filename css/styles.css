@@ -202,7 +202,7 @@ body {
 /*Portfolio page*/
 
 .portfolio-button {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -210,8 +210,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(-color-iris);
+  color: var(--color-iris);
   background: var(--color-cloud);
+  cursor: pointer;
 }
 
 .portfolio-button:hover,
@@ -225,5 +226,5 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(-color-navy-blue);
+  color: var(--color-navy-blue);
 }
