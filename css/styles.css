@@ -16,8 +16,8 @@
 /*General*/
 
 body {
-  font-family: Robota, sans-serif;
-  color: var (--color-slate);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: var(-color-white);
 }
 
@@ -112,7 +112,6 @@ body {
 .order-service:focus {
   background-color: var(--color-ocean);
 }
-
 
 /*Second section*/
 
